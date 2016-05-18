@@ -3,7 +3,8 @@ keyboardsdir = $(datadir)/matchbox-keyboard
 IMGS  = arrow.png      arrows.png       \
         return.png      shift.png       \
         shift_2.png     shift_3.png     \
-	shift_caps.png			\
+        shift_caps.png			\
+        123.png			\
         super_0.png     sub_0.png       \
         super_1.png     sub_1.png       \
         super_2.png     sub_2.png       \
@@ -47,6 +48,7 @@ fragment_in_files = \
 
 variant_in_files = $(fragment_in_files) \
 		keyboard.xml.in \
+		keyboard-small.xml.in \
 		keyboard-lq1.xml.in \
 		keyboard-symbol.xml.in \
 		keyboard-numpad-extended.xml.in \
