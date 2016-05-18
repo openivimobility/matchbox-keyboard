@@ -814,7 +814,6 @@ mb_kbd_key_release(MBKeyboard *kbd, Bool cancel)
               mb_kbd_has_any_state(kbd))
 	    {
 	      mb_kbd_remove_state(kbd, (MBKeyboardStateShifted|
-					MBKeyboardStateMod1|
 					MBKeyboardStateMod2|
 					MBKeyboardStateMod3|
 					MBKeyboardStateControl|
