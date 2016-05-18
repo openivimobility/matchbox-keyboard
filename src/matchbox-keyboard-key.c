@@ -593,26 +593,26 @@ mb_kbd_key_press (MBKeyboardKey *key)
 	    break;
 	  case MBKeyboardKeyModMod1:
 	    mb_kbd_toggle_state(key->kbd, MBKeyboardStateMod1);
-            mb_kbd_set_held_key(key->kbd, key);
+	    mb_kbd_set_held_key(key->kbd, key);
 	    queue_full_kbd_redraw = True;
 	    break;
 	  case MBKeyboardKeyModMod2:
 	    mb_kbd_toggle_state(key->kbd, MBKeyboardStateMod2);
-            mb_kbd_set_held_key(key->kbd, key);
+	    mb_kbd_set_held_key(key->kbd, key);
 	    queue_full_kbd_redraw = True;
 	    break;
 	  case MBKeyboardKeyModMod3:
 	    mb_kbd_toggle_state(key->kbd, MBKeyboardStateMod3);
-            mb_kbd_set_held_key(key->kbd, key);
+	    mb_kbd_set_held_key(key->kbd, key);
 	    queue_full_kbd_redraw = True;
 	    break;
 	  case MBKeyboardKeyModCaps:
 	    mb_kbd_toggle_state(key->kbd, MBKeyboardStateCaps);
 	    queue_full_kbd_redraw = True;
 	    break;
-          case MBKeyboardKeyModControl:
+	  case MBKeyboardKeyModControl:
 	    mb_kbd_toggle_state(key->kbd, MBKeyboardStateControl);
-            mb_kbd_set_held_key(key->kbd, key);
+	    mb_kbd_set_held_key(key->kbd, key);
 	    break;
 	  case MBKeyboardKeyModAlt:
 	    mb_kbd_toggle_state(key->kbd, MBKeyboardStateAlt);
