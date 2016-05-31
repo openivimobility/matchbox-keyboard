@@ -1,0 +1,5 @@
+
+
+#define VERSION ${VERSION}
+
+#define PKGDATADIR ${PKGDATADIR}
